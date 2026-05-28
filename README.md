@@ -78,9 +78,9 @@ I specialize in creating **developer productivity tools**, **fullstack applicati
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=nukmansalim&show_icons=true&theme=radical&hide=contribs&count_private=true" alt="GitHub Stats" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=nukmansalim&show_icons=true&theme=radical" alt="GitHub Stats" width="48%" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nukmansalim&layout=compact&theme=radical&langs_count=6" alt="Top Languages" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=nukmansalim&layout=compact&theme=radical&langs_count=6" alt="Top Languages" width="48%" />
 
 </div>
 
