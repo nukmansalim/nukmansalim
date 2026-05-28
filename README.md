@@ -1,35 +1,3 @@
-```markdown
-# PC Hardware Point-of-Sale (POS) System
-
-A modern Point-of-Sale (POS) system engineered specifically for PC hardware and component retail. This project utilizes an **Event Sourcing** approach for highly accurate inventory tracking and an integrated **Compatibility Engine** to ensure real-time PC build validation.
-
-## Tech Stack
-
-| Layer              | Technology                                      |
-|--------------------|-------------------------------------------------|
-| **Backend**        | Laravel 11 (PHP 8.3+)                           |
-| **Database**       | PostgreSQL (with JSONB support)                 |
-| **Event Sourcing** | Spatie Laravel Event Sourcing                   |
-| **Frontend**       | Vue 3 (Composition API) + Inertia.js            |
-| **Styling**        | Tailwind CSS (Semantic Token System)            |
-| **Real-time**      | Laravel Reverb (WebSockets)                     |
-
-## Key Features
-
-- **Serialized Inventory Tracking** — Every physical unit is tracked by its unique Manufacturer Serial Number rather than simple product quantities.
-- **"Will It Boot?" Engine** — Real-time compatibility validation between components (CPU socket, motherboard, RAM, PSU, etc.) using JSONB metadata.
-- **Immutable Audit Trail** — All transactions and stock adjustments are recorded in an append-only `stored_events` ledger.
-- **Keyboard-First Interface** — Optimized for fast cashier workflow with full keyboard shortcuts and global barcode scanning support.
-- **Hardware Integration** — Direct browser-to-hardware communication with ESC/POS thermal printers and barcode scanners via WebUSB/Web Serial APIs.
-
-## Project Structure
-
-- `PROMPT CONTRACT/` — Architectural guidelines, UI standards, and progress trackers.
-- `app/Aggregates/` — Core business logic using Event Sourcing Aggregate Roots.
-- `database/migrations/` — PostgreSQL-optimized schema with heavy use of JSONB.
-
-<div align="center">
-
 # 👋 Hi, I'm **Mohammad Nukman Salim**
 
 ### Backend Engineer • Fullstack Developer • Tool Builder  
