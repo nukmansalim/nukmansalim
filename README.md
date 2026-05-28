@@ -1,3 +1,5 @@
+<div align="center">
+
 # 👋 Hi, I'm **Mohammad Nukman Salim**
 
 ### Backend Engineer • Fullstack Developer • Tool Builder  
@@ -24,8 +26,8 @@ I specialize in creating **developer productivity tools**, **fullstack applicati
 
 | Category            | Technologies |
 |---------------------|--------------|
-| **Languages**       | TypeScript, JavaScript, Python, Java, PHP |
-| **Backend**         | NestJS (learning), Laravel, ElysiaJS, Hono, Node.js, Flask |
+| **Languages**       | TypeScript, JavaScript, Python, Java |
+| **Backend**         | NestJS (learning), Spring Boot (learning), ElysiaJS, Hono, Node.js, Flask |
 | **Frontend**        | React, Vite |
 | **Databases**       | SQLite, Prisma, Drizzle |
 | **Tools & APIs**    | Git, GitHub API (Octokit), OBS WebSocket, YouTube Data API v3, Raspberry Pi |
@@ -76,9 +78,9 @@ I specialize in creating **developer productivity tools**, **fullstack applicati
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nukmansalim&show_icons=true&theme=radical&hide=contribs&count_private=true)
+<img src="https://github-readme-stats.vercel.app/api?username=nukmansalim&show_icons=true&theme=radical&hide=contribs&count_private=true" alt="GitHub Stats" width="48%" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nukmansalim&layout=compact&theme=radical&langs_count=6)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nukmansalim&layout=compact&theme=radical&langs_count=6" alt="Top Languages" width="48%" />
 
 </div>
 
