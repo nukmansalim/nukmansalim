@@ -16,7 +16,7 @@
 
 I'm a passionate **backend developer** from **Sumenep, Madura** who loves building tools that make developers' lives easier.  
 
-I specialize in creating **developer productivity tools**, **fullstack applications**, and **automation systems** (especially on Raspberry Pi). Currently diving deep into **NestJS** and **Java Spring Boot** while exploring high-performance runtimes like **Bun + ElysiaJS**.
+I specialize in creating **developer productivity tools**, **fullstack applications**, and **automation systems** (controlling obs using ai harness). Currently diving deep into **NestJS** and **Laravel** while exploring high-performance runtimes like **Bun + ElysiaJS**.
 
 > *"Great code isn't just about functionality — it's about joy and efficiency for the people who use it."*
 
