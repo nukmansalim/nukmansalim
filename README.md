@@ -55,7 +55,7 @@ I specialize in creating **developer productivity tools**, **fullstack applicati
 - **Frontend**: React + Vite • **Backend**: Hono + TypeScript + SQLite
 
 ### 📹 [Pi Agent Livestream Assistant](https://github.com/nukmansalim/pi-agent-livestream-assistant)
-**Raspberry Pi-powered YouTube livestream & OBS automation**
+**YouTube livestream & OBS automation using Pi Coding Agent**
 
 - Automated video upload + metadata editing  
 - Livestream creation & control via YouTube API  
