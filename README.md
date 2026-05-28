@@ -1,9 +1,142 @@
-- 👋 Hi, I’m @nukmansalim
-- 👀 I’m interested in Backend Development
-- 🌱 I’m currently learning NestJS, Java Spring Boot, many other backend frameworks...
-- 📫 Contact me: nukmansaleem@gmail.vom
+```markdown
+# PC Hardware Point-of-Sale (POS) System
 
-<!---
-nukmansalim/nukmansalim is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+A modern Point-of-Sale (POS) system engineered specifically for PC hardware and component retail. This project utilizes an **Event Sourcing** approach for highly accurate inventory tracking and an integrated **Compatibility Engine** to ensure real-time PC build validation.
+
+## Tech Stack
+
+| Layer              | Technology                                      |
+|--------------------|-------------------------------------------------|
+| **Backend**        | Laravel 11 (PHP 8.3+)                           |
+| **Database**       | PostgreSQL (with JSONB support)                 |
+| **Event Sourcing** | Spatie Laravel Event Sourcing                   |
+| **Frontend**       | Vue 3 (Composition API) + Inertia.js            |
+| **Styling**        | Tailwind CSS (Semantic Token System)            |
+| **Real-time**      | Laravel Reverb (WebSockets)                     |
+
+## Key Features
+
+- **Serialized Inventory Tracking** — Every physical unit is tracked by its unique Manufacturer Serial Number rather than simple product quantities.
+- **"Will It Boot?" Engine** — Real-time compatibility validation between components (CPU socket, motherboard, RAM, PSU, etc.) using JSONB metadata.
+- **Immutable Audit Trail** — All transactions and stock adjustments are recorded in an append-only `stored_events` ledger.
+- **Keyboard-First Interface** — Optimized for fast cashier workflow with full keyboard shortcuts and global barcode scanning support.
+- **Hardware Integration** — Direct browser-to-hardware communication with ESC/POS thermal printers and barcode scanners via WebUSB/Web Serial APIs.
+
+## Project Structure
+
+- `PROMPT CONTRACT/` — Architectural guidelines, UI standards, and progress trackers.
+- `app/Aggregates/` — Core business logic using Event Sourcing Aggregate Roots.
+- `database/migrations/` — PostgreSQL-optimized schema with heavy use of JSONB.
+
+<div align="center">
+
+# 👋 Hi, I'm **Mohammad Nukman Salim**
+
+### Backend Engineer • Fullstack Developer • Tool Builder  
+**Sumenep, Madura, Indonesia** 🇮🇩
+
+[![GitHub followers](https://img.shields.io/github/followers/nukmansalim?color=ff69b4&style=for-the-badge)](https://github.com/nukmansalim)
+[![GitHub stars](https://img.shields.io/github/stars/nukmansalim?color=ff69b4&style=for-the-badge)](https://github.com/nukmansalim)
+
+</div>
+
+---
+
+## 🚀 About Me
+
+I'm a passionate **backend developer** from **Sumenep, Madura** who loves building tools that make developers' lives easier.  
+
+I specialize in creating **developer productivity tools**, **fullstack applications**, and **automation systems** (especially on Raspberry Pi). Currently diving deep into **NestJS** and **Java Spring Boot** while exploring high-performance runtimes like **Bun + ElysiaJS**.
+
+> *"Great code isn't just about functionality — it's about joy and efficiency for the people who use it."*
+
+---
+
+## 🛠️ Tech Stack
+
+| Category            | Technologies |
+|---------------------|--------------|
+| **Languages**       | TypeScript, JavaScript, Python, Java, PHP |
+| **Backend**         | NestJS (learning), Laravel, ElysiaJS, Hono, Node.js, Flask |
+| **Frontend**        | React, Vite |
+| **Databases**       | SQLite, Prisma, Drizzle |
+| **Tools & APIs**    | Git, GitHub API (Octokit), OBS WebSocket, YouTube Data API v3, Raspberry Pi |
+| **Specialties**     | CLI Development, REST API, Fullstack Apps, IoT Automation, Open Source Libraries |
+
+---
+
+## 🌟 Featured Projects
+
+### ⚡ [FasterGit](https://github.com/nukmansalim/FasterGit)
+**Modern CLI tool to supercharge Git & GitHub workflows**
+
+- One-command repo initialization + remote setup  
+- `quickcommit` with smart staging & optional push  
+- Pull Request creation, listing & merging directly from terminal  
+- Beautiful interactive mode with loading spinners & styled output  
+- Built with **Node.js**, **Commander.js**, **Octokit**, **Inquirer**
+
+### 🔗 [Klikly URL Shortener](https://github.com/nukmansalim/klikly-url-shortener) • [Live Demo](https://klikly-url-shortener-web.vercel.app)
+**Fullstack URL shortener with authentication & analytics**
+
+- User registration & login  
+- Create, manage, update & delete short links  
+- Real-time analytics dashboard  
+- **Frontend**: React + Vite • **Backend**: Hono + TypeScript + SQLite
+
+### 📹 [Pi Agent Livestream Assistant](https://github.com/nukmansalim/pi-agent-livestream-assistant)
+**Raspberry Pi-powered YouTube livestream & OBS automation**
+
+- Automated video upload + metadata editing  
+- Livestream creation & control via YouTube API  
+- OBS scene switching, recording & streaming via WebSocket  
+- REST API skill plugin for **Pi Coding Agent**  
+- **Tech**: Python, Flask, Google OAuth, OBS WebSocket
+
+### 📄 [Elysia Pagination](https://github.com/nukmansalim/elysia-pagination)
+**Lightweight & type-safe pagination library for ElysiaJS (Bun)**
+
+- Cursor-based & offset pagination  
+- Built-in adapters: Prisma, Drizzle, Array  
+- Secure base64 cursor encoding  
+- Super easy to use: `bun add elysia-pagination`  
+- **Tech**: TypeScript, ElysiaJS, tsup, Vitest
+
+---
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nukmansalim&show_icons=true&theme=radical&hide=contribs&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nukmansalim&layout=compact&theme=radical&langs_count=6)
+
+</div>
+
+---
+
+## 🌱 Currently Learning
+
+- **NestJS** — Enterprise Node.js framework  
+- **Java Spring Boot** — Robust & scalable backend  
+- Advanced architecture patterns (CQRS, Event-Driven, Microservices)  
+- Bun ecosystem & high-performance TypeScript
+
+---
+
+## 📫 Let's Connect
+
+- **Email**: [nukmansaleem@gmail.com](mailto:nukmansaleem@gmail.com)  
+- **GitHub**: [@nukmansalim](https://github.com/nukmansalim)  
+- **Location**: Sumenep, Madura, East Java, Indonesia
+
+---
+
+<div align="center">
+
+**Thanks for stopping by!** ⭐
+
+*Crafting tools that make developers smile*
+
+</div>
